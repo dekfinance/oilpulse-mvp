@@ -1,0 +1,6 @@
+{
+  "name": "Oil Pulse MVP",
+  "short_name": "OilPulse",
+  "display": "standalone",
+  "start_url": "/"
+}

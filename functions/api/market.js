@@ -1,0 +1,1 @@
+export async function onRequest(){const sources=["Reuters","Bloomberg","OilPrice.com","Rigzone","CNBC","Financial Times","EIA","IEA","OPEC","S&P Global"];return Response.json({timestamp:new Date().toISOString(),news:sources.map(s=>({source:s,title:`Monitor ${s} oil market updates`,link:'https://news.google.com'}))});}
